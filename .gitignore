@@ -1,0 +1,5 @@
+*.DS_Store
+.bak
+/.bundle
+/vendor
+/_site
