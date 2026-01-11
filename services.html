@@ -12,32 +12,55 @@ title: Services
     {% include nav.html %}
 
    <main class="flex-grow">
-    <section id="services" class="py-24 max-w-7xl mx-auto px-6">
-        <div class="grid md:grid-cols-2 gap-12">
-            <div class="bg-white p-10 rounded-2xl shadow-sm border border-slate-200">
-                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
+    <section id="recruiting" class="relative py-32 bg-slate-900 border-b border-slate-800">
+        <div class="absolute inset-0 z-0">
+             <img src="recruiting_bg.png" alt="Recruiting Background" class="w-full h-full object-cover opacity-20">
+             <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-900/90 to-transparent"></div>
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                 <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-blue-900/50">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"/></svg>
                 </div>
-                <h3 class="text-2xl font-bold mb-4">HR Technical Recruiting</h3>
-                <p class="text-slate-600 mb-6 leading-relaxed">We don't just find candidates; we find the right technical fit. Our 20-year network in the D.C. area allows us to source specialized talent for high-stakes projects.</p>
-                <ul class="space-y-3 text-slate-700 font-medium">
-                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Executive Tech Search</li>
-                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Agile Team Augmentation</li>
-                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Specialized Contractor Sourcing</li>
-                </ul>
+                <h2 class="text-3xl md:text-5xl font-bold text-white mb-6">Talent Recruiting Services</h2>
+                <h3 class="text-xl text-blue-400 font-semibold mb-6">Cost Effective Recruiting Services</h3>
+                <p class="text-lg text-slate-300 mb-8 leading-relaxed">
+                    We have an extended network of exceptional talent to fit all your staffing needs, from software engineers, network technicians, quality assurance testers, scrum masters, project managers, as well as executive leaders.
+                </p>
+                <div class="flex flex-wrap gap-3">
+                     <span class="px-4 py-2 bg-slate-800 text-slate-300 rounded-full text-sm border border-slate-700">Executive Search</span>
+                     <span class="px-4 py-2 bg-slate-800 text-slate-300 rounded-full text-sm border border-slate-700">Technical Staffing</span>
+                     <span class="px-4 py-2 bg-slate-800 text-slate-300 rounded-full text-sm border border-slate-700">Project Management</span>
+                </div>
             </div>
+            <div class="hidden md:block">
+                <!-- Add optional decorative side image or leave open for background emphasis -->
+            </div>
+        </div>
+    </section>
 
-            <div class="bg-white p-10 rounded-2xl shadow-sm border border-slate-200">
-                <div class="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
-                    <svg class="w-6 h-6 text-blue-900" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
+    <section id="software" class="relative py-32 bg-slate-50">
+        <div class="absolute inset-0 z-0">
+             <img src="software_bg.png" alt="Software Background" class="w-full h-full object-cover opacity-5">
+        </div>
+        <div class="relative z-10 max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+             <div class="order-2 md:order-1">
+                 <!-- Visual balance -->
+            </div>
+            <div class="order-1 md:order-2">
+                 <div class="w-16 h-16 bg-blue-600 rounded-2xl flex items-center justify-center mb-8 shadow-lg shadow-blue-200">
+                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/></svg>
                 </div>
-                <h3 class="text-2xl font-bold mb-4">Custom Software Consulting</h3>
-                <p class="text-slate-600 mb-6 leading-relaxed">From legacy modernization to greenfield development, we provide the architectural guidance and engineering muscle needed to build reliable systems.</p>
-                <ul class="space-y-3 text-slate-700 font-medium">
-                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Cloud Architecture & Migration</li>
-                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> Enterprise Application Design</li>
-                    <li class="flex items-center"><span class="w-2 h-2 bg-blue-500 rounded-full mr-3"></span> API Strategy & Development</li>
-                </ul>
+                <h2 class="text-3xl md:text-5xl font-bold text-slate-900 mb-6">Software Development</h2>
+                <h3 class="text-xl text-blue-600 font-semibold mb-6">Custom software development and integration specialists</h3>
+                <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                    We have over 20 years of experience building software development projects for enterprise, mobile and web across healthcare, entertainment, music, e-commerce, social media, internet technology, telecommunication, hotel and travel. We realize the highest level of project success as gauged by customer satisfaction is our utmost priority.
+                </p>
+                <div class="flex flex-wrap gap-3">
+                     <span class="px-4 py-2 bg-white text-slate-600 rounded-full text-sm border border-slate-200 shadow-sm">Enterprise Systems</span>
+                     <span class="px-4 py-2 bg-white text-slate-600 rounded-full text-sm border border-slate-200 shadow-sm">Mobile & Web</span>
+                     <span class="px-4 py-2 bg-white text-slate-600 rounded-full text-sm border border-slate-200 shadow-sm">Cloud Integration</span>
+                </div>
             </div>
         </div>
     </section>
